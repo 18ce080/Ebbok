@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+  android:layout_height="730dp"
+    tools:context=".Books_Of_C"
+
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/background1"
+    >
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="395dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_rounded3"
+
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/button_rounded1"
+        android:onClick="Go"
+        android:text="go" />
+
+
+</RelativeLayout>
